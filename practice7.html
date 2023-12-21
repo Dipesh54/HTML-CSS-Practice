@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 7</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: rgb(13, 13, 23);
+
+        }
+        ul{
+            display:inline-grid;
+            grid-template-columns: auto auto auto;
+            margin: 12px 25px;
+
+        }
+        ul li{
+            list-style: none;
+            color: aliceblue;
+            padding:10px 35px;
+
+        }
+        .container{
+            background-color: rgb(80, 5, 5);
+            color:aliceblue;
+            height: 90vh;
+        }
+        @media screen and (max-width:800px) {
+            .container{
+                background-color:yellow;
+            }
+        }
+        @media screen and (max-width:600px){
+            .container{
+                background-color: rgb(181, 12, 12);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam necessitatibus enim explicabo deleniti quidem iste minima. Officia aut vero sunt repellendus dolores debitis?</div>
+</body>
+</html>

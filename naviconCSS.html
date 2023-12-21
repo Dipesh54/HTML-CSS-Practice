@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav icon CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #6194d5;
+            justify-content: space-between;
+            overflow: auto;
+        }
+
+        ul li {
+            position: relative;
+            margin: 0 20px;
+            list-style: none;
+            display: inline-block;
+            padding: 14px;
+            font-size: 17px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+
+        ul li a:hover {
+            background-color: rgb(129, 123, 123);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="homed.png" width="60px" height="40px" id=logo alt="Logo image" style="margin-left: 10px;" />
+        <ul class="navigationbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="news.html">News</a></li>
+        </ul>
+    </nav>
+    <script src=""></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope , if-else and Switch-Case</title>
+    <script>
+        // var name="Dipesh";
+        // var name="This is Dipesh";
+        // console.log(name);
+        // var man="Dipesh";
+        // console.log(man);
+
+        // let age=28;
+        // {
+        //     let age=23;
+        //     console.log(age);
+        // }
+        // console.log(age);
+
+        // const profession="web developer";
+        //       profession="Architecture";
+        // console.log(profession);
+        
+        let age = 17;
+        if(age>35 && age<40){
+            console.log('your age is not perfect for marriage');
+        }
+        else if(age>28 && age<35){
+            
+            console.log('your age is still perfect for marriage');
+        }
+        else if(age == 28){
+            console.log('your age is perfect for marriage');
+        }
+        else if(age<18){
+            console.log('you are too young');
+            
+        }
+        else{
+            console.log('you are too old');
+
+        }
+    //   switch (key) {
+    //     case value:
+            
+    //         break;
+      
+    //     default:
+    //         break;
+    //   }
+       switch (46) {
+            case 4:
+                console.log('this is 4');
+                break;
+                
+            case 23:
+                    console.log('this is 23');
+                    break;
+            case 43:
+                    console.log('this is 43');
+                    break;
+            default:
+                    console.log('this is not in the range');
+                    break;    
+       }
+
+    </script>
+</head>
+<body>
+    <!-- div>ul>li{item-$}*7  for printing so many list items in once-->
+    <div>
+        <ul>
+            <li>items-1</li>
+            <li>items-2</li>
+            <li>items-3</li>
+            <li>items-4</li>
+            <li>items-5</li>
+            <li>items-6</li>
+            <li>items-7</li>
+        </ul>
+    </div>
+</body>
+</html>
